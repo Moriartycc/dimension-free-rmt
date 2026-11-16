@@ -1,0 +1,146 @@
+[
+  {
+    "law": "power",
+    "p": 0.2,
+    "q": 28,
+    "hidden_line_points": 25,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "power",
+    "p": 0.2,
+    "q": 32,
+    "hidden_line_points": 51,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "power",
+    "p": 0.2,
+    "q": 36,
+    "hidden_line_points": 76,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "power",
+    "p": 0.2,
+    "q": 40,
+    "hidden_line_points": 108,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "critical",
+    "p": 0.2,
+    "q": 28,
+    "hidden_line_points": 253,
+    "hidden_curve_points": 170,
+    "hidden_markers": 2,
+    "faint_curve_points": 85
+  },
+  {
+    "law": "critical",
+    "p": 0.2,
+    "q": 32,
+    "hidden_line_points": 580,
+    "hidden_curve_points": 462,
+    "hidden_markers": 4,
+    "faint_curve_points": 231
+  },
+  {
+    "law": "critical",
+    "p": 0.2,
+    "q": 36,
+    "hidden_line_points": 598,
+    "hidden_curve_points": 428,
+    "hidden_markers": 5,
+    "faint_curve_points": 214
+  },
+  {
+    "law": "critical",
+    "p": 0.2,
+    "q": 40,
+    "hidden_line_points": 671,
+    "hidden_curve_points": 436,
+    "hidden_markers": 6,
+    "faint_curve_points": 218
+  },
+  {
+    "law": "power",
+    "p": 0.05,
+    "q": 28,
+    "hidden_line_points": 64,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "power",
+    "p": 0.05,
+    "q": 32,
+    "hidden_line_points": 83,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "power",
+    "p": 0.05,
+    "q": 36,
+    "hidden_line_points": 104,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "power",
+    "p": 0.05,
+    "q": 40,
+    "hidden_line_points": 101,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "critical",
+    "p": 0.05,
+    "q": 28,
+    "hidden_line_points": 90,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "critical",
+    "p": 0.05,
+    "q": 32,
+    "hidden_line_points": 280,
+    "hidden_curve_points": 168,
+    "hidden_markers": 2,
+    "faint_curve_points": 84
+  },
+  {
+    "law": "critical",
+    "p": 0.05,
+    "q": 36,
+    "hidden_line_points": 659,
+    "hidden_curve_points": 526,
+    "hidden_markers": 3,
+    "faint_curve_points": 263
+  },
+  {
+    "law": "critical",
+    "p": 0.05,
+    "q": 40,
+    "hidden_line_points": 699,
+    "hidden_curve_points": 528,
+    "hidden_markers": 4,
+    "faint_curve_points": 264
+  }
+]

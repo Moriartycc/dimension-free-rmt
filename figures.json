@@ -1,0 +1,137 @@
+{
+  "1": {
+    "directory": "experiments/spectral-geometry/gram-spectra",
+    "label": "fig:intro-gram-spectra",
+    "output": "experiments/spectral-geometry/gram-spectra/output/intro_gram_histograms.pdf",
+    "arguments": [],
+    "configuration": "experiments/spectral-geometry/gram-spectra/configs/main.json"
+  },
+  "2": {
+    "directory": "experiments/spectral-geometry/deterministic-bulk-laws",
+    "label": "fig:deterministic-bulk-laws",
+    "output": "experiments/spectral-geometry/deterministic-bulk-laws/output/deterministic_bulk_laws.pdf",
+    "arguments": [],
+    "configuration": "experiments/spectral-geometry/deterministic-bulk-laws/configs/main.json"
+  },
+  "4": {
+    "directory": "experiments/spectral-geometry/directional-measures",
+    "label": "fig:directional-measures",
+    "output": "experiments/spectral-geometry/directional-measures/output/directional_measures_semilogy.pdf",
+    "arguments": [],
+    "configuration": "experiments/spectral-geometry/directional-measures/configs/main.json"
+  },
+  "6": {
+    "directory": "experiments/numerical-validation/spectral-laws",
+    "label": "fig:numerical-spectral-laws",
+    "output": "experiments/numerical-validation/spectral-laws/output/spectral_comparison_2x4.pdf",
+    "arguments": [],
+    "configuration": "experiments/numerical-validation/spectral-laws/configs/main.json"
+  },
+  "7a": {
+    "directory": "experiments/numerical-validation/ridge-filters",
+    "label": "fig:ridge-q16-k1-absolute",
+    "output": "experiments/numerical-validation/ridge-filters/output/ridge_q16_k1_absolute_paper.pdf",
+    "arguments": [
+      "--q",
+      "16",
+      "--k",
+      "1",
+      "--side",
+      "absolute"
+    ],
+    "configuration": "experiments/numerical-validation/ridge-filters/configs/main.json"
+  },
+  "7b": {
+    "directory": "experiments/numerical-validation/ridge-filters",
+    "label": "fig:ridge-q16-k1-relative",
+    "output": "experiments/numerical-validation/ridge-filters/output/ridge_q16_k1_relative_paper.pdf",
+    "arguments": [
+      "--q",
+      "16",
+      "--k",
+      "1",
+      "--side",
+      "relative"
+    ],
+    "configuration": "experiments/numerical-validation/ridge-filters/configs/main.json"
+  },
+  "7c": {
+    "directory": "experiments/numerical-validation/ridge-filters",
+    "label": "fig:ridge-q16-k2-relative",
+    "output": "experiments/numerical-validation/ridge-filters/output/ridge_q16_k2_relative_paper.pdf",
+    "arguments": [
+      "--q",
+      "16",
+      "--k",
+      "2",
+      "--side",
+      "relative"
+    ],
+    "configuration": "experiments/numerical-validation/ridge-filters/configs/main.json"
+  },
+  "8": {
+    "directory": "experiments/numerical-validation/gradient-flow",
+    "label": "fig:numerical-gradient-flow",
+    "output": "experiments/numerical-validation/gradient-flow/output/gf_empirical_surfaces_2x4_envelope.pdf",
+    "arguments": [],
+    "configuration": "experiments/numerical-validation/gradient-flow/configs/main.json"
+  },
+  "9": {
+    "directory": "experiments/interpolation/path-errors",
+    "label": "fig:interpolation-endpoint-errors",
+    "output": "experiments/interpolation/path-errors/output/endpoint_l1_l2_combined.pdf",
+    "arguments": [],
+    "configuration": "experiments/interpolation/path-errors/configs/main.json"
+  },
+  "11a": {
+    "directory": "experiments/numerical-validation/ridge-filters",
+    "label": "fig:ridge-q24-k1-absolute",
+    "output": "experiments/numerical-validation/ridge-filters/output/ridge_q24_k1_absolute_paper.pdf",
+    "arguments": [
+      "--q",
+      "24",
+      "--k",
+      "1",
+      "--side",
+      "absolute"
+    ],
+    "configuration": "experiments/numerical-validation/ridge-filters/configs/appendix.json"
+  },
+  "11b": {
+    "directory": "experiments/numerical-validation/ridge-filters",
+    "label": "fig:ridge-q24-k1-relative",
+    "output": "experiments/numerical-validation/ridge-filters/output/ridge_q24_k1_relative_paper.pdf",
+    "arguments": [
+      "--q",
+      "24",
+      "--k",
+      "1",
+      "--side",
+      "relative"
+    ],
+    "configuration": "experiments/numerical-validation/ridge-filters/configs/appendix.json"
+  },
+  "11c": {
+    "directory": "experiments/numerical-validation/ridge-filters",
+    "label": "fig:ridge-q24-k2-relative",
+    "output": "experiments/numerical-validation/ridge-filters/output/ridge_q24_k2_relative_paper.pdf",
+    "arguments": [
+      "--q",
+      "24",
+      "--k",
+      "2",
+      "--side",
+      "relative"
+    ],
+    "configuration": "experiments/numerical-validation/ridge-filters/configs/appendix.json"
+  },
+  "12": {
+    "directory": "experiments/numerical-validation/gradient-flow",
+    "label": "fig:gradient-flow-source-transitions",
+    "output": "experiments/numerical-validation/gradient-flow/output/gf_theory_q28_q32_q36_q40_4x4.pdf",
+    "arguments": [
+      "--appendix"
+    ],
+    "configuration": "experiments/numerical-validation/gradient-flow/configs/appendix.json"
+  }
+}

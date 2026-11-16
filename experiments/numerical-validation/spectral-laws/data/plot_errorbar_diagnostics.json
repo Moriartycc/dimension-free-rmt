@@ -1,0 +1,162 @@
+{
+  "power_0.2_n2": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.01981812548650599,
+    "max_cdf_standard_error": 0.005879370906068563,
+    "mass_below_window": 0.0005,
+    "mass_above_window": 0.00375,
+    "cdf_max_error_in_window": 0.05664271345221605
+  },
+  "power_0.2_n8": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.007471778522147066,
+    "max_cdf_standard_error": 0.0018083666061922286,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.0720625,
+    "cdf_max_error_in_window": 0.017648154822507214
+  },
+  "power_0.2_n32": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.002635438321323916,
+    "max_cdf_standard_error": 0.0005254882937831627,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.113,
+    "cdf_max_error_in_window": 0.0063617166688548984
+  },
+  "power_0.2_n128": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.0008148587098909351,
+    "max_cdf_standard_error": 0.00014793640407408828,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.12320703125,
+    "cdf_max_error_in_window": 0.001773443200498507
+  },
+  "critical_0.2_n2": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.02052333985342943,
+    "max_cdf_standard_error": 0.005704320260540908,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.0275,
+    "cdf_max_error_in_window": 0.05510913704693402
+  },
+  "critical_0.2_n8": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.007552291857850312,
+    "max_cdf_standard_error": 0.0018050374871910635,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.14475,
+    "cdf_max_error_in_window": 0.017899926359483932
+  },
+  "critical_0.2_n32": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.0026248563230409907,
+    "max_cdf_standard_error": 0.0005223965618511679,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.1530625,
+    "cdf_max_error_in_window": 0.006288802357783596
+  },
+  "critical_0.2_n128": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.0008022878276249979,
+    "max_cdf_standard_error": 0.00014674222631456008,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.14528515625,
+    "cdf_max_error_in_window": 0.0017316252142750089
+  },
+  "power_0.05_n2": {
+    "bin_width": 0.25,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.015903095743506124,
+    "max_cdf_standard_error": 0.005948017165753764,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.0,
+    "cdf_max_error_in_window": 0.05608312004333291
+  },
+  "power_0.05_n8": {
+    "bin_width": 0.25,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.0062155478654446275,
+    "max_cdf_standard_error": 0.0017987339697192626,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.006,
+    "cdf_max_error_in_window": 0.01698397502595935
+  },
+  "power_0.05_n32": {
+    "bin_width": 0.25,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.002111777640378182,
+    "max_cdf_standard_error": 0.0005265377617625953,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.050265625,
+    "cdf_max_error_in_window": 0.006143124808845001
+  },
+  "power_0.05_n128": {
+    "bin_width": 0.25,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.0006488598487359714,
+    "max_cdf_standard_error": 0.0001484671942387034,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.05853125,
+    "cdf_max_error_in_window": 0.001708170466449859
+  },
+  "critical_0.05_n2": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.020020546599507912,
+    "max_cdf_standard_error": 0.005703355515138877,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.02225,
+    "cdf_max_error_in_window": 0.054307218198722126
+  },
+  "critical_0.05_n8": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.0075337139061346535,
+    "max_cdf_standard_error": 0.001802359356406188,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.1359375,
+    "cdf_max_error_in_window": 0.017716985837695286
+  },
+  "critical_0.05_n32": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.0026084361366371218,
+    "max_cdf_standard_error": 0.0005217040828621536,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.145703125,
+    "cdf_max_error_in_window": 0.006254536507610715
+  },
+  "critical_0.05_n128": {
+    "bin_width": 0.2,
+    "replicates": 2000,
+    "uncertainty": "Pointwise normal-approximation 95% Monte Carlo intervals; trial-level SD/sqrt(2000)",
+    "max_histogram_standard_error": 0.0007827142044456962,
+    "max_cdf_standard_error": 0.0001469031852177231,
+    "mass_below_window": 0.0,
+    "mass_above_window": 0.1396953125,
+    "cdf_max_error_in_window": 0.0017350553787466097
+  }
+}

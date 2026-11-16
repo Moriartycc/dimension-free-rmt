@@ -1,0 +1,50 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{amsmath,amssymb,hyperref}
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\bT}{\mathbf{T}}
+\begin{document}
+
+\colorlet{pathphaseone}{blue!75!black}
+\colorlet{pathphasetwo}{orange!85!black}
+\usetikzlibrary{decorations.pathreplacing}
+
+\begin{tikzpicture}[x=1cm,y=1cm,font=\small,>=stealth]
+\node[font=\small\bfseries] at (7.6,4.35) {Two-phase stability argument along the backward path};
+\draw[<->] (0.15,0.5)--(15,0.5) node[right] {$\Re w$};
+\draw[->] (14,0.2)--(14,3.2) node[above] {$\Im w$};
+% A reference overlay of the reflected nonzero terminal eigenvalues.
+\node[fill=white,inner sep=2pt] at (0.8,0.5) {$\cdots$};
+\foreach \x in {1.5,2.8,4,5.1,6,6.8,7.5,8.05,8.5,8.9,9.25,9.55,9.85,10.15,10.4}
+  \draw[line width=1.2pt] (\x,0.41)--(\x,0.59);
+\node[anchor=north,inner sep=0pt] at (5.95,0.16)
+{$\underbrace{\hspace{9.4cm}}_{\substack{-\Spec(\bT_n)}}$};
+
+\draw[densely dotted,blue!65] (1.7,1.9)--(14,1.9);
+\node[above right,font=\scriptsize] at (14,1.9) {$\Im w_\ell$};
+\draw[pathphaseone,line width=1.3pt,->] (14,0.5) .. controls (12.2,0.75) and (10.15,1.5) .. (8,1.9);
+\draw[pathphasetwo,line width=1.3pt,->] (8,1.9) .. controls (6.2,2.3) and (4.4,2.65) .. (2.6,3);
+\fill[pathphaseone] (14,0.5) circle (1.8pt) node[below right] {$w_n=0$};
+\fill (8,1.9) circle (1.8pt) node[below left] {$w_\ell$};
+\fill[pathphasetwo] (2.6,3) circle (1.8pt) node[above left] {$w_0$};
+\draw[thin] (8,2.05)--(8,2.85);
+\node[above,font=\scriptsize] at (8,2.85) {cutoff $\ell=\lfloor n/2\rfloor$};
+% The braces follow the slopes of the two segments; labels lie above them.
+\draw[pathphaseone,line width=0.7pt,decorate,decoration={brace,amplitude=5pt}]
+  (8.4,2.2)--(13.6,1.05)
+  node[midway,sloped,above=10pt,align=center,font=\scriptsize,text=pathphaseone] {Phase I};
+\draw[pathphasetwo,line width=0.7pt,decorate,decoration={brace,amplitude=5pt}]
+  (2.95,3.32)--(7.65,2.37)
+  node[midway,sloped,above=10pt,align=center,font=\scriptsize,text=pathphasetwo] {Phase II};
+
+\node[anchor=north,align=center,text width=7.15cm,minimum height=1.7cm,draw=pathphasetwo!65,fill=pathphasetwo!3,text=pathphasetwo,rounded corners=2pt,inner sep=6pt] at (11.5,-1.15)
+{\hypersetup{linkcolor=pathphasetwo}\textbf{Phase II (small sample)}\\
+$w_\ell\longrightarrow w_{\ell-1}\longrightarrow\cdots\longrightarrow w_0$\\
+Explicit one-step path error control};
+\node[anchor=north,align=center,text width=7.15cm,minimum height=1.7cm,draw=pathphaseone!65,fill=pathphaseone!3,text=pathphaseone,rounded corners=2pt,inner sep=6pt] at (3.65,-1.15)
+{\hypersetup{linkcolor=pathphaseone}\textbf{Phase I (large sample)}\\
+$w_n\longrightarrow w_{n-1}\longrightarrow\cdots\longrightarrow w_\ell$\\
+Sample covariance concentration};
+\end{tikzpicture}
+
+
+\end{document}

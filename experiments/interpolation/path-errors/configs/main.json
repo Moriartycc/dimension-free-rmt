@@ -1,0 +1,24 @@
+{
+  "dimension": 65536,
+  "n": 400,
+  "alpha": 0.2,
+  "beta": 0.2,
+  "trials": 400,
+  "training_trials": 1024,
+  "head": 4096,
+  "tail_order": 16,
+  "power_real": [
+    1,
+    7
+  ],
+  "critical_real": [
+    -2,
+    4
+  ],
+  "real_step": 0.25,
+  "imaginary_grid": [
+    0.005,
+    1,
+    17
+  ]
+}

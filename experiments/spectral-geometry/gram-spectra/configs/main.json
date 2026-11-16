@@ -1,0 +1,15 @@
+{
+  "n": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "trials": 2000,
+  "normalization": "XX*/n",
+  "gaussian_dimension": "n/4",
+  "power_exponent": 1.2,
+  "power_head": "max(16384,256*n)",
+  "tail": "infinite expectation tail",
+  "features": "ImageNet V1 ResNet-50, 2048 dimensions"
+}

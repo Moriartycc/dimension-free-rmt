@@ -1,0 +1,50 @@
+{
+  "dimension": 16777216,
+  "laws": [
+    [
+      "power",
+      0.2
+    ],
+    [
+      "critical",
+      0.2
+    ],
+    [
+      "power",
+      0.05
+    ],
+    [
+      "critical",
+      0.05
+    ]
+  ],
+  "noise_standard_deviation": 0.01,
+  "source": "beta_j = sqrt(sigma_j) theta_j; theta_j proportional to q^(j-1)/(j-1)!, normalized in l2",
+  "n": [
+    16,
+    32,
+    64,
+    128,
+    192,
+    256,
+    384,
+    512
+  ],
+  "trials": 400,
+  "q": [
+    24
+  ],
+  "k": [
+    1,
+    2,
+    4
+  ],
+  "lambda_over_kappa": [
+    -0.6,
+    0,
+    0.5,
+    1,
+    1.5,
+    2
+  ]
+}

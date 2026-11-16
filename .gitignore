@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.install-temp/
+.ruff_cache/
+tmp*/
+.DS_Store
+**/samples/
+**/inputs/
+**/runs/
+**/replicate_cache/
+**/spectral_cache/
+**/status.json
+**/*.tmp.*
+**/features/

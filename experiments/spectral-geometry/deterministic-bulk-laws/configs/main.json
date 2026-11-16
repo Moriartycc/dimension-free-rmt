@@ -1,0 +1,11 @@
+{
+  "n": [
+    8,
+    64,
+    1024
+  ],
+  "alpha": 0.2,
+  "beta": 0.2,
+  "population": "infinite",
+  "refinement": 2
+}

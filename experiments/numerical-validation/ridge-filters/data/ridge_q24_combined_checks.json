@@ -1,0 +1,26 @@
+{
+  "power_0.2": {
+    "minimum_component_baseline": 1.1961852212741446e-05,
+    "maximum_ratio_95_percent_half_width": 0.015576597598214344,
+    "component_ridgeless_ratios_identically_one": true,
+    "total_risk_ratios_match_previous_figures": true
+  },
+  "critical_0.2": {
+    "minimum_component_baseline": 1.8435021700797325e-06,
+    "maximum_ratio_95_percent_half_width": 0.011850923334300385,
+    "component_ridgeless_ratios_identically_one": true,
+    "total_risk_ratios_match_previous_figures": true
+  },
+  "power_0.05": {
+    "minimum_component_baseline": 6.59897201140336e-06,
+    "maximum_ratio_95_percent_half_width": 0.008354684784738492,
+    "component_ridgeless_ratios_identically_one": true,
+    "total_risk_ratios_match_previous_figures": true
+  },
+  "critical_0.05": {
+    "minimum_component_baseline": 3.4754611286414365e-06,
+    "maximum_ratio_95_percent_half_width": 0.011248410537082396,
+    "component_ridgeless_ratios_identically_one": true,
+    "total_risk_ratios_match_previous_figures": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "n": [
+    8,
+    64
+  ],
+  "alpha": 0.2,
+  "beta": 0.2,
+  "population": "infinite",
+  "rank": [
+    "1",
+    "n/4",
+    "n/2",
+    "n"
+  ],
+  "weighted_measure": "mass Tr(Sigma^2)/n"
+}

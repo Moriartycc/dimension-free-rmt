@@ -1,0 +1,74 @@
+[
+  {
+    "law": "power",
+    "p": 0.2,
+    "q": 16,
+    "hidden_line_points": 0,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "power",
+    "p": 0.2,
+    "q": 24,
+    "hidden_line_points": 0,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "critical",
+    "p": 0.2,
+    "q": 16,
+    "hidden_line_points": 0,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "critical",
+    "p": 0.2,
+    "q": 24,
+    "hidden_line_points": 0,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "power",
+    "p": 0.05,
+    "q": 16,
+    "hidden_line_points": 0,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "power",
+    "p": 0.05,
+    "q": 24,
+    "hidden_line_points": 0,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "critical",
+    "p": 0.05,
+    "q": 16,
+    "hidden_line_points": 0,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  },
+  {
+    "law": "critical",
+    "p": 0.05,
+    "q": 24,
+    "hidden_line_points": 0,
+    "hidden_curve_points": 0,
+    "hidden_markers": 0,
+    "faint_curve_points": 0
+  }
+]
