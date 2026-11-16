@@ -13,3 +13,5 @@ tmp*/
 **/status.json
 **/*.tmp.*
 **/features/
+/experiments/interpolation/path-errors/power/
+/experiments/interpolation/path-errors/critical/
