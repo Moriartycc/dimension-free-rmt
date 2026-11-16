@@ -1,6 +1,18 @@
 # Dimension-free spectral laws and the risk of spectral filters
 
-Numerical experiments and figure-generation code for the paper. The repository follows the experiment-by-experiment organization of [rolling-conformal](https://github.com/Moriartycc/rolling-conformal), with shared solvers for the spectral laws and filter risks.
+Code for the numerical experiments in the paper **Dimension-free spectral laws and the risk of spectral filters**.
+
+Author: Chen Cheng.
+
+The repository contains the following experiments reported in the paper:
+
+1. [Gram spectra](experiments/spectral-geometry/gram-spectra/README.md): empirical spectra for proportional, polynomial-decay, and CIFAR-10 feature models (Figure 1).
+2. [Deterministic bulk laws](experiments/spectral-geometry/deterministic-bulk-laws/README.md): finite-sample predictions and their limiting laws (Figure 2).
+3. [Directional measures](experiments/spectral-geometry/directional-measures/README.md): spectral measures and weighted measures (Figure 4).
+4. [Spectral-law validation](experiments/numerical-validation/spectral-laws/README.md): empirical PDFs and CDFs against theoretical predictions (Figure 6).
+5. [Ridge-type filters](experiments/numerical-validation/ridge-filters/README.md): variance, bias, and risk for ridge and iterated ridge (Figures 7 and 11).
+6. [Gradient flow](experiments/numerical-validation/gradient-flow/README.md): risk surfaces and optimal stopping times (Figures 8 and 12).
+7. [Interpolation errors](experiments/interpolation/path-errors/README.md): backward, linear, and forward interpolation on the complex plane (Figure 9).
 
 **Start with the saved results.** Every numerical figure in the paper can be regenerated on a CPU without repeating the simulations. Fresh simulations are separate commands: the validation experiments explicitly sample up to $d=2^{24}$ Gaussian coordinates and are substantially more expensive.
 
